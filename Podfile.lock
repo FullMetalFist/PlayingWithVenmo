@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (2.3.1):
+    - AFNetworking/NSURLConnection (= 2.3.1)
+    - AFNetworking/NSURLSession (= 2.3.1)
+    - AFNetworking/Reachability (= 2.3.1)
+    - AFNetworking/Security (= 2.3.1)
+    - AFNetworking/Serialization (= 2.3.1)
+    - AFNetworking/UIKit (= 2.3.1)
+  - AFNetworking/NSURLConnection (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.1)
+  - AFNetworking/Security (2.3.1)
+  - AFNetworking/Serialization (2.3.1)
+  - AFNetworking/UIKit (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - SSKeychain (1.2.2)
+  - VENCore (1.0.0):
+    - AFNetworking
+  - Venmo-iOS-SDK (1.0.2):
+    - SSKeychain (~> 1.2.2)
+    - VENCore (~> 1.0.0)
+
+DEPENDENCIES:
+  - Venmo-iOS-SDK
+
+SPEC CHECKSUMS:
+  AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
+  SSKeychain: 88767e903ee8d274ed380e364d96b7a101235286
+  VENCore: 224c4aa25ac64b47bbfefb130196ce2ecb4087bf
+  Venmo-iOS-SDK: be2960bebdd85bae2c45675d1be8f650356a7494
+
+COCOAPODS: 0.36.0
